@@ -1,13 +1,13 @@
 # Incubyte Gmail Compose Assessment
 
-This repository contains manual QA test cases for Gmail Compose functionality, prepared as part of the Incubyte assessment.
+This repository contains manual QA test cases for Gmail Compose functionality, prepared as part of the Incubyte Manual QA Assessment.
 
 ## Objective
 
-To test Gmail Compose functionality and verify successful creation and delivery of an email with:
+To test Gmail Compose functionality and verify the successful creation and delivery of an email with:
 
-- Subject: Incubyte
-- Body: QA test for Incubyte
+- **Subject:** Incubyte
+- **Body:** QA test for Incubyte
 
 ## Deliverables
 
@@ -38,17 +38,29 @@ The assessment covers Gmail Compose functionality including:
 - `Traditional_Test_Cases.xlsx`
 - `BDD_Test_Cases.xlsx`
 
+## Viewing the Test Cases
+
+GitHub does not display the contents of Excel (`.xlsx`) files directly in the browser.
+
+To view the test cases:
+
+1. Click on the desired Excel file (`Traditional_Test_Cases.xlsx` or `BDD_Test_Cases.xlsx`).
+2. Click **View Raw** or **Download**.
+3. Open the downloaded file using Microsoft Excel, Google Sheets, or any compatible spreadsheet application.
+
 ## Edge Cases Covered
 
-This assessment also includes important edge cases such as:
+This assessment includes validation of the following edge cases:
 
-- Undo send
-- Multiple compose windows
-- Invalid recipient handling
-- Sending without subject
-- Session logout while compose is open
-- Storage full behavior
-- Mobile app compose behavior
-- Closing the mobile app while composing
+- Undo Send
+- Multiple Compose Windows
+- Invalid Recipient Handling
+- Sending Without Subject
+- Session Logout While Compose Window Is Open
+- Storage Full Behavior
+- Mobile App Compose Behavior
+- Closing the Mobile App While Composing
 
-Prepared as part of the Incubyte Manual QA Assessment.
+---
+
+Prepared by **Pankaj Pathania** as part of the Incubyte Manual QA Assessment.
